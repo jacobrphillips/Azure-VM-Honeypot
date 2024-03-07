@@ -107,7 +107,8 @@ Before getting started, ensure you have the following:
   - If you followed these steps, then you should be Remoting into your VM right now.
 
 6c. You will now have remote access to the VM's desktop environment, allowing you to interact with it as if you were physically present.
-       ![VM-2](VM-Snapshot.png)
+
+   ![VM-2](VM-Snapshot.png)
 
 ### Step 3: Test Ping/Disable Firewalls
 
@@ -117,12 +118,33 @@ Before getting started, ensure you have the following:
 2. Ping the public IP address of the Azure VM to test network connectivity.
    - If you receive a response, the VM is reachable from your local machine.
    - If you encounter "Request timed out" messages, it may indicate firewall restrictions. Proceed to the next step.
+     
+     ![VM-2](Ping-Before-Firewall-Disable.png)
+     
 3. Disable the firewall on the Azure VM temporarily for testing purposes:
-   - Log in to the Azure portal.
-   - Navigate to the network security group associated with your VM.
-   - Edit the inbound security rules to allow ICMP traffic (ping) or disable the firewall entirely.
-   - Test ping again from your local machine to verify connectivity.
-   - Once confirmed, re-enable the firewall and adjust rules as necessary for your security requirements.
+   - IMPORTANT: This is for purposely creating a vulnerable resource and you would never do this otherwise.
+   - In the VM you are currenty remotely connected to, search "wf.msc"
+   - This will bring up the Windows Defender Firewall Menu
+
+     ![VM-2](Firewall-Menu-1.png)
+     
+   - From here, click the "Windows Defender Firewall Properties"
+   - Now, disable the Firewalls for the Domain Profile, Private Profile, and Public Profile
+
+     ![VM-2](Firewall-Disable-1.png)
+     
+     ![VM-2](Firewall-Disable-2.png)
+     
+     ![VM-2](Firewall-Disable-3.png)
+
+   - Once they are all changed to Off, click Apply followed by Okay.
+
+
+  4. Back on your host machine, open up the terminal and run the ping command once again
+     - You should start receiving responses from the Virtual Machine
+
+        ![VM-2](Ping-After-Firewall-Disable.png)
+
 
 These steps ensure that you can establish remote desktop connections to the VM and troubleshoot any network connectivity issues by testing ping and adjusting firewall settings accordingly.
 
