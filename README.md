@@ -15,7 +15,7 @@ Before getting started, ensure you have the following:
 
 **Purpose:** Create a cloud environment for hosting the vulnerable VMs.
 
-1. Sign up for an Azure account if you haven't already.
+1. Sign up for an Azure account, or if you're a student, you can use the [Azure for Students](https://azure.microsoft.com/en-gb/free/students) program.
 
 ### Step 2: Create Virtual Machines
 
@@ -51,10 +51,6 @@ Before getting started, ensure you have the following:
 ## Conclusion
 
 Setting up vulnerable VMs in Azure provides an invaluable learning experience for understanding common security issues and practicing cybersecurity skills. By actively engaging with vulnerable environments, users can enhance their knowledge of security concepts, threat detection, and mitigation strategies, ultimately improving their ability to protect against real-world cyber threats.
-
-### Screenshots (Optional)
-
-You can add screenshots of your Azure portal or VM configurations here:
 
 ![Azure Portal](image_url_1)
 
