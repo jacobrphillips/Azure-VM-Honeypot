@@ -78,9 +78,16 @@ Before getting started, ensure you have the following:
 2. Navigate to the list of virtual machines.
 3. Click on the VM you created.
 4. Under the "Overview" section, find the "Public IP Address" field.
-     
-6. Click on "Connect" and select "RDP" to download an RDP file.
-7. Open the downloaded RDP file and enter the username and password you set during VM creation.
+     - This will be the IP Address we will use, along with the credentials made during the creation of the VM, to remotely access the VM.
+
+      ![VM-2](Public_IP.png)
+   
+6. Copy this IP Address.
+7a. For Windows Users, search for "RDP" in the bottom left Search Bar.
+    - Once this interface opens, it will prompt for 
+7b. For Mac Users, go to the App Store and download "Microsoft Remote Desktop".
+  - Once installed, open it.
+7c. 
 8. Click "Connect" to establish an RDP connection to the VM.
 9. You will now have remote access to the VM's desktop environment, allowing you to interact with it as if you were physically present.
 
