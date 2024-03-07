@@ -139,14 +139,13 @@ Before getting started, ensure you have the following:
 
    - Once they are all changed to Off, click Apply followed by Okay.
 
-
   4. Back on your host machine, open up the terminal and run the ping command once again
      - You should start receiving responses from the Virtual Machine
 
         ![VM-2](Ping-After-Firewall-Disable.png)
 
-
 These steps ensure that you can establish remote desktop connections to the VM and troubleshoot any network connectivity issues by testing ping and adjusting firewall settings accordingly.
+
 
 ## Conclusion
 
