@@ -22,7 +22,7 @@ Before getting started, ensure you have the following:
    - I would recommend bookmarking the url for the Azure portal with the browser of your choice for ease of accessibility.
 
 2. Navigate to the Virtual Machines service.
-  ![Azure Portal](image_url_1)
+  ![Azure Portal](Create-VM.png)
    
 3. Click on "Create" to begin the VM creation process.
 5. Select an appropriate operating system image (e.g., Windows or Linux).
