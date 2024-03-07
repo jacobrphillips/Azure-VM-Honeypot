@@ -19,12 +19,16 @@ Before getting started, ensure you have the following:
 **Purpose:** Deploy virtual machines with intentionally vulnerable configurations.
 
 1. Log in to the Azure portal.
+   - I would recommend bookmarking the url for the Azure portal with the browser of your choice for ease of accessibility.
+
 2. Navigate to the Virtual Machines service.
+  ![Azure Portal](image_url_1)
+   
 3. Click on "Create" to begin the VM creation process.
-4. Select an appropriate operating system image (e.g., Windows or Linux).
-5. Configure the VM settings, including size, networking, and authentication.
-6. Ensure to enable Remote Desktop Protocol (RDP) or Secure Shell (SSH) access for management purposes.
-7. Optionally, customize the VM with additional software or configurations to introduce specific vulnerabilities.
+5. Select an appropriate operating system image (e.g., Windows or Linux).
+6. Configure the VM settings, including size, networking, and authentication.
+7. Ensure to enable Remote Desktop Protocol (RDP) or Secure Shell (SSH) access for management purposes.
+8. Optionally, customize the VM with additional software or configurations to introduce specific vulnerabilities.
 
 ### Step 2: Harden Security (Optional)
 
