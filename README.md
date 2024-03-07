@@ -7,17 +7,13 @@ This repository contains instructions for setting up vulnerable virtual machines
 Before getting started, ensure you have the following:
 
 - An Azure account ([Sign up here](https://azure.microsoft.com/en-us/free))
+  -   If you're a student, you can use the [Azure for Students](https://azure.microsoft.com/en-gb/free/students) program.
+  
 - Basic knowledge of Azure services and virtual machines
 
 ## Setup Instructions
 
-### Step 1: Set Up Azure Account
-
-**Purpose:** Create a cloud environment for hosting the vulnerable VMs.
-
-1. Sign up for an Azure account, or if you're a student, you can use the [Azure for Students](https://azure.microsoft.com/en-gb/free/students) program.
-
-### Step 2: Create Virtual Machines
+### Step 1: Create Virtual Machines
 
 **Purpose:** Deploy virtual machines with intentionally vulnerable configurations.
 
@@ -29,7 +25,7 @@ Before getting started, ensure you have the following:
 6. Ensure to enable Remote Desktop Protocol (RDP) or Secure Shell (SSH) access for management purposes.
 7. Optionally, customize the VM with additional software or configurations to introduce specific vulnerabilities.
 
-### Step 3: Harden Security (Optional)
+### Step 2: Harden Security (Optional)
 
 **Purpose:** Implement basic security measures to protect the vulnerable VMs.
 
@@ -39,7 +35,7 @@ Before getting started, ensure you have the following:
 4. Implement strong authentication mechanisms, such as complex passwords or multi-factor authentication.
 5. Regularly monitor and audit the VMs for suspicious activities.
 
-### Step 4: Test and Exploit Vulnerabilities
+### Step 3: Test and Exploit Vulnerabilities
 
 **Purpose:** Identify and exploit vulnerabilities within the VM environment.
 
