@@ -1,3 +1,4 @@
+![banner](honeypot.png)
 # Setting Up Vulnerable VMs in Azure
 
 This repository contains instructions for setting up vulnerable virtual machines (VMs) in Azure. These VMs are intentionally configured with vulnerabilities for educational and testing purposes, allowing users to learn about common security issues and practice vulnerability assessment and mitigation techniques.
