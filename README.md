@@ -151,7 +151,3 @@ These steps ensure that you can establish remote desktop connections to the VM a
 ## Conclusion
 
 Setting up vulnerable VMs in Azure provides an invaluable learning experience for understanding common security issues and practicing cybersecurity skills. By actively engaging with vulnerable environments, users can enhance their knowledge of security concepts, threat detection, and mitigation strategies, ultimately improving their ability to protect against real-world cyber threats.
-
-![Azure Portal](image_url_1)
-
-![VM Configuration](image_url_2)
