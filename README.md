@@ -82,14 +82,32 @@ Before getting started, ensure you have the following:
 
       ![VM-2](Public_IP.png)
    
-6. Copy this IP Address.
-7a. For Windows Users, search for "RDP" in the bottom left Search Bar.
-    - Once this interface opens, it will prompt for 
-7b. For Mac Users, go to the App Store and download "Microsoft Remote Desktop".
+5. Copy this IP Address.
+6a. For Windows Users, search for "RDP" in the bottom left Search Bar.
+    - Once this interface opens, it will prompt for a Computer and Username field
+    - You'll paste the VM's Public IP Address in the Computer field
+    - You'll use the username crediential that you established when creating the Administrator Account for your VM
+    - Click "Connect" at the bottom left
+    - It'll prompt you for a Password, this is the same password that you've created when establishing the Administrator Account for your VM
+    - It'll trigger a popup stating that "Remote computer cannot be verified" just click the Yes button at the bottom left
+    - If you followed these steps, then you should be Remoting into your VM right now.
+      
+     ![VM-2](RDP_IMAGE.png)
+   
+6b. For Mac Users, go to the App Store and download "Microsoft Remote Desktop".
   - Once installed, open it.
-7c. 
-8. Click "Connect" to establish an RDP connection to the VM.
-9. You will now have remote access to the VM's desktop environment, allowing you to interact with it as if you were physically present.
+  - Click the "Add PC" Button
+  - For the PC Name, paste the Public IP Address
+  - Click the drop down for User Account
+      - Create a new user account using the username and password you created when establishing the Administrator Account for your VM
+  - Check the "Connect to an admin session" box
+  - Click the "Add" Button
+  - Now click the elipses > Connect
+  - It will prompt stating that  "Remote computer cannot be verified" just click the Yes button
+  - If you followed these steps, then you should be Remoting into your VM right now.
+
+6c. You will now have remote access to the VM's desktop environment, allowing you to interact with it as if you were physically present.
+       ![VM-2](VM-Snapshot.png)
 
 ### Step 3: Test Ping/Disable Firewalls
 
